@@ -17,11 +17,11 @@ public class Secretario extends Empleado{
 
     @Override
     public String getMesVacaciones() {
-        return "Agosto";
+        return super.getMesVacaciones();
     }
 
     public void mostrar(){
-        System.out.println("Estoy en el tribunal");
+        System.out.println("Estoy haciendo fotocopias");
     }
 
 
